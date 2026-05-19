@@ -1,7 +1,9 @@
 CBIR with Spatial Weighting — Intel Image Classification
+
 Este projeto implementa um sistema de Recuperação de Imagens Baseada em Conteúdo (CBIR) utilizando o dataset Intel Image Classification. 
 O sistema combina descritores visuais clássicos (textura, forma e cor) com uma estratégia de janelas deslizantes (Sliding Window) e ponderação 
 espacial baseada em IoU (Intersection over Union) para otimizar a precisão da busca por regiões de interesse.
+
 🚀 Funcionalidades
 Extração Multidescritor: Combina histogramas HOG (forma/bordas), LBP (textura), histograma HSV e momentos de cor (média, desvio padrão e assimetria).
 Propostas de Região: Geração automática de caixas delimitadoras (Bboxes) multi-escala baseadas na estrutura da cena (Céu, Meio, Chão).
